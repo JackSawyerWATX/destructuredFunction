@@ -6,3 +6,11 @@ console.log(name);
 console.log(age);
 console.log(city);
 console.log(country);
+
+
+function employee(name, position) {
+  return { name, position }
+}
+
+let crewMember = employee("Marcus", "Dolly Grip")
+console.log(crewMember)
