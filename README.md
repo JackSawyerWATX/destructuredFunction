@@ -1,6 +1,6 @@
 # Destructured Function
 
-A small JavaScript example demonstrating object destructuring, including a default value for a property that is not present.
+A small JavaScript example demonstrating object destructuring, default values, and shorthand property names in returned objects.
 
 ## Table of Contents
 
@@ -26,6 +26,7 @@ This project is a minimal, standalone example of extracting values from a JavaSc
 
 - Destructures `name`, `age`, and `city` from an object.
 - Uses `"Unknown"` as the default `country` when that property is absent.
+- Defines an `employee` function that returns `name` and `position` using object property shorthand.
 - Prints the resulting values to the console.
 
 ## Tech Stack
@@ -35,7 +36,7 @@ This project is a minimal, standalone example of extracting values from a JavaSc
 
 ## Architecture
 
-The project has one script. It defines a sample object, destructures its properties, and logs the values; no external packages or services are used.
+The project has one script. It defines a sample person object, destructures its properties, and logs the values. It also creates an employee object from function parameters using property shorthand and logs that object. No external packages or services are used.
 
 ## Project Structure
 
@@ -53,7 +54,7 @@ The project has one script. It defines a sample object, destructures its propert
    node script.js
    ```
 
-3. Check the console output, including the default value for `country`.
+3. Check the console output, including the default value for `country` and the employee object returned by `employee`.
 
 ## Configuration
 
